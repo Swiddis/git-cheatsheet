@@ -34,8 +34,8 @@ In a collaborative project with many contributors, it's typical that the `main` 
 progressing as others work on it, while your features lag behind. You can see two examples of this
 in the graph:
 - `feature/better-integ-failures` currently points to `bbad1de47`. This was a feature that started
-  getting from `380845e83`. It happens that there were no updates on `main` from then until the
-  feature was merged in `cd70e059a`.
+  from `f80845e83`. It happens that there were no updates on `main` from then until the feature was
+  merged in `cd70e059a`.
 - `pr/db-sel` is a branch where I checked out a coworker's Pull Request for local review. This one
   had a change happen under it while it was in progress (`6ea90a6e7`).
 
