@@ -119,7 +119,8 @@ is generally only necessary in an environment with lots of in-flight features an
 
 Firstly, all branches except copies of remote branches should have a prefix. This is the `feature/`
 and `pr/` from my earlier examples. Some prefixes I use:
-- `feature/` marks features I'm working on: these are usually more complex, larger changes.
+- `feature/` marks features I'm working on: these are usually more complex, larger changes. (Pro
+  tip: you can later sort these chronologically and use them for building a performance review doc!)
 - `*fix/` marks smaller, usually one-off changes. These are frequent, split by type (e.g. `bugfix`, `hotfix`),
   and meant to be cleaned up regularly: `git branch --list | grep 'hotfix/*' | xargs git branch -d`
 - `pr/` marks when I check out coworkers' changes for local testing. They can be quickly cleaned.
